@@ -1,14 +1,31 @@
+*{
+  font-family: 'Nunito Sans', sans-serif;
+}
 body{
-  background-color: gold;
+  background-color: teal;
+}
+table{
+  width: 1200px; 
+  height: 1000px; 
+  margin: auto;
+}
+.personal-details{
+  width: 100px; 
+  background-color: #1c2833;
+  color: white; 
+  padding: 20px;
+  vertical-align: top;
 }
 
-section {
-  margin:auto;
-  border: 2px solid black ;
+.employment-details{
+  width: 500px;
+  background-color: white;
+  vertical-align: top;
 }
 
-.Contact_Info{
-  background: white;
-  width: 60%;
-  padding: 2%;
-  }
+img{
+  border-radius: 50%;
+  ;
+}
+
+
